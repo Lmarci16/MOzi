@@ -1,0 +1,1113 @@
+@font-face {
+    font-family: eszi;
+    src: url(SigmarOne-Regular.ttf);
+}
+
+body {
+    background-color:  rgb(130, 210, 236);;
+    background-size: cover;
+    width: 101vw;
+    overflow-x:hidden;
+    margin-top: -8px;
+    margin-bottom: -8px;
+    height: 100vh;
+    font-family: eszi;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#menu {
+    width: 102vw;
+    height: 15vh;
+    display: block;
+    font-family: eszi;
+    margin-left: -2vw;
+    margin-right: 0;
+}
+
+#menufel {
+    width: 103vw;
+    height: 10vh;
+    background-color: white;
+    display: flex;
+    margin-top: 0;
+}
+
+#menule {
+    width: 103vw;
+    height: 5vh;
+    background-color: rgb(122, 122, 122);
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 0;
+    color: white;
+    text-transform: uppercase;
+}
+
+#logo {
+    align-content: left;
+    height: 10vh;
+}
+
+img {
+    height: 9vh;
+    width: 8vw;
+    margin-left: 4vw;
+    margin-top: 1vh;
+    margin-bottom: auto;
+}
+
+#menubar {
+    margin-top: 1.5vh;
+    font-family: eszi;
+    text-align: center;
+}
+p {
+    color: rgb(10, 10, 112);
+    
+}
+
+#tartalom {
+    width: 100vw;
+    margin-top: none;
+    margin-bottom: auto;
+}
+
+#elso {
+    width: 90vw;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-top: -6vh;
+}
+
+#szoveg1 {
+    background-color: rgba(255, 255, 255, 0.4);
+    text-align: left;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 150px;
+    width: 60vw;
+    
+}
+
+#masodik {
+    width: 100vw;
+    height: 300px;
+    margin-left: 35%;
+    margin-right: auto;
+    display: flex;
+    margin-top: -10vh;
+}
+
+#szoveg2 {
+    background-color: rgba(255, 255, 255, 0.4);
+    text-align: left;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 135px;
+    width: 60vw;
+    margin-left: 1vw;
+}
+
+#harmadik {
+    width: 90vw;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-top: -10vh;
+}
+
+#szoveg3 {
+    background-color: rgba(255, 255, 255, 0.4);
+    text-align: left;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 180px;
+    width: 60vw;
+    
+}
+
+#negyedik {
+    width: 100vw;
+    height: 300px;
+    margin-left: 35%;
+    margin-right: auto;
+    display: flex;
+    margin-top: -10vh;
+}
+
+#szoveg4 {
+    background-color: rgba(255, 255, 255, 0.4);
+    text-align: left;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 180px;
+    width: 60vw;
+    margin-left: 1vw;
+}
+
+#otodik {
+    width: 90vw;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-top: -10vh;
+}
+
+#szoveg5 {
+    background-color: rgba(255, 255, 255, 0.4);
+    text-align: left;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 135px;
+    width: 60vw;
+    
+}
+
+#hatodik {
+    width: 100vw;
+    height: 300px;
+    margin-left: 35%;
+    margin-right: auto;
+    display: flex;
+    margin-top: -10vh;
+}
+
+#szoveg6 {
+    background-color: rgba(255, 255, 255, 0.4);
+    text-align: left;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 135px;
+    width: 60vw;
+    margin-left: 1vw;
+}
+
+#hetedik {
+    width: 90vw;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-top: -10vh;
+}
+
+#szoveg7 {
+    background-color: rgba(255, 255, 255, 0.4);
+    text-align: left;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 135px;
+    width: 60vw;
+    
+}
+
+#nyolcadik {
+    width: 100vw;
+    height: 300px;
+    margin-left: 35%;
+    margin-right: auto;
+    display: flex;
+    margin-top: -10vh;
+}
+
+#szoveg8 {
+    background-color: rgba(255, 255, 255, 0.4);
+    text-align: left;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 180px;
+    width: 60vw;
+    margin-left: 1vw;
+}
+
+#kilencedik {
+    width: 90vw;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-top: -10vh;
+}
+
+#szoveg9 {
+    background-color: rgba(255, 255, 255, 0.4);
+    text-align: left;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 135px;
+    width: 60vw;
+    
+}
+
+#tizedik {
+    width: 100vw;
+    height: 300px;
+    margin-left: 35%;
+    margin-right: auto;
+    display: flex;
+    margin-top: -10vh;
+}
+
+#szoveg10 {
+    background-color: rgba(255, 255, 255, 0.4);
+    text-align: left;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 150px;
+    width: 60vw;
+    margin-left: 1vw;
+}
+
+#hiteles {
+    text-align: center;
+    margin-bottom: 3vh;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+@media screen and (min-width:1201px) {
+    ::-webkit-scrollbar {
+        display: none;
+    }
+    
+    a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    #menu {
+        width: 102vw;
+        height: 15vh;
+        display: block;
+        font-family: eszi;
+        margin-left: -2vw;
+        margin-right: 0;
+    }
+    
+    #menufel {
+        width: 103vw;
+        height: 10vh;
+        background-color: white;
+        display: flex;
+        margin-top: 0;
+    }
+    
+    #menule {
+        width: 103vw;
+        height: 5vh;
+        background-color: rgb(122, 122, 122);
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 0;
+        color: white;
+        text-transform: uppercase;
+    }
+    
+    #logo {
+        align-content: left;
+        height: 10vh;
+    }
+    
+    img {
+        height: 9vh;
+        width: 8vw;
+        margin-left: 4vw;
+        margin-top: 1vh;
+        margin-bottom: auto;
+    }
+    
+    #menubar {
+        margin-top: 1.5vh;
+        font-family: eszi;
+        text-align: center;
+    }
+    p {
+        color: rgb(10, 10, 112);
+        
+    }
+    
+    #tartalom {
+        width: 100vw;
+        margin-top: none;
+        margin-bottom: auto;
+    }
+    
+    #elso {
+        width: 90vw;
+        height: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        margin-top: -6vh;
+    }
+    
+    #szoveg1 {
+        background-color: rgba(255, 255, 255, 0.4);
+        text-align: left;
+        margin-top: auto;
+        margin-bottom: auto;
+        height: 150px;
+        width: 60vw;
+        
+    }
+    
+    #masodik {
+        width: 100vw;
+        height: 300px;
+        margin-left: 35%;
+        margin-right: auto;
+        display: flex;
+        margin-top: -10vh;
+    }
+    
+    #szoveg2 {
+        background-color: rgba(255, 255, 255, 0.4);
+        text-align: left;
+        margin-top: auto;
+        margin-bottom: auto;
+        height: 135px;
+        width: 60vw;
+        margin-left: 1vw;
+    }
+    
+    #harmadik {
+        width: 90vw;
+        height: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        margin-top: -10vh;
+    }
+    
+    #szoveg3 {
+        background-color: rgba(255, 255, 255, 0.4);
+        text-align: left;
+        margin-top: auto;
+        margin-bottom: auto;
+        height: 180px;
+        width: 60vw;
+        
+    }
+    
+    #negyedik {
+        width: 100vw;
+        height: 300px;
+        margin-left: 35%;
+        margin-right: auto;
+        display: flex;
+        margin-top: -10vh;
+    }
+    
+    #szoveg4 {
+        background-color: rgba(255, 255, 255, 0.4);
+        text-align: left;
+        margin-top: auto;
+        margin-bottom: auto;
+        height: 180px;
+        width: 60vw;
+        margin-left: 1vw;
+    }
+    
+    #otodik {
+        width: 90vw;
+        height: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        margin-top: -10vh;
+    }
+    
+    #szoveg5 {
+        background-color: rgba(255, 255, 255, 0.4);
+        text-align: left;
+        margin-top: auto;
+        margin-bottom: auto;
+        height: 135px;
+        width: 60vw;
+        
+    }
+    
+    #hatodik {
+        width: 100vw;
+        height: 300px;
+        margin-left: 35%;
+        margin-right: auto;
+        display: flex;
+        margin-top: -10vh;
+    }
+    
+    #szoveg6 {
+        background-color: rgba(255, 255, 255, 0.4);
+        text-align: left;
+        margin-top: auto;
+        margin-bottom: auto;
+        height: 135px;
+        width: 60vw;
+        margin-left: 1vw;
+    }
+    
+    #hetedik {
+        width: 90vw;
+        height: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        margin-top: -10vh;
+    }
+    
+    #szoveg7 {
+        background-color: rgba(255, 255, 255, 0.4);
+        text-align: left;
+        margin-top: auto;
+        margin-bottom: auto;
+        height: 135px;
+        width: 60vw;
+        
+    }
+    
+    #nyolcadik {
+        width: 100vw;
+        height: 300px;
+        margin-left: 35%;
+        margin-right: auto;
+        display: flex;
+        margin-top: -10vh;
+    }
+    
+    #szoveg8 {
+        background-color: rgba(255, 255, 255, 0.4);
+        text-align: left;
+        margin-top: auto;
+        margin-bottom: auto;
+        height: 180px;
+        width: 60vw;
+        margin-left: 1vw;
+    }
+    
+    #kilencedik {
+        width: 90vw;
+        height: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        margin-top: -10vh;
+    }
+    
+    #szoveg9 {
+        background-color: rgba(255, 255, 255, 0.4);
+        text-align: left;
+        margin-top: auto;
+        margin-bottom: auto;
+        height: 135px;
+        width: 60vw;
+        
+    }
+    
+    #tizedik {
+        width: 100vw;
+        height: 300px;
+        margin-left: 35%;
+        margin-right: auto;
+        display: flex;
+        margin-top: -10vh;
+    }
+    
+    #szoveg10 {
+        background-color: rgba(255, 255, 255, 0.4);
+        text-align: left;
+        margin-top: auto;
+        margin-bottom: auto;
+        height: 150px;
+        width: 60vw;
+        margin-left: 1vw;
+    }
+    
+    #hiteles {
+        text-align: center;
+        margin-bottom: 3vh;
+        font-family: 'Courier New', Courier, monospace;
+    }
+}
+
+@media screen and (min-width:601px) and (max-width:1200px) {
+    ::-webkit-scrollbar {
+        display: none;
+    }
+    
+    a {
+        color: white;
+        text-decoration: none;
+        font-size: 15px;
+    }
+    
+    #menu {
+        width: 102vw;
+        height: 15vh;
+        display: block;
+        font-family: eszi;
+        margin-left: -2vw;
+        margin-right: 0;
+    }
+    
+    #menufel {
+        width: 103vw;
+        height: 10vh;
+        background-color: white;
+        display: flex;
+        margin-top: 0;
+    }
+    
+    #menule {
+        width: 103vw;
+        height: 5vh;
+        background-color: rgb(122, 122, 122);
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 0;
+        color: white;
+        text-transform: uppercase;
+    }
+    
+    #logo {
+        align-content: left;
+        height: 10vh;
+    }
+    
+    img {
+        height: 9vh;
+        width: 14vw;
+        margin-left: 4vw;
+        margin-top: 1vh;
+        margin-bottom: auto;
+    }
+    
+    #menubar {
+        margin-top: 1.5vh;
+        font-family: eszi;
+        text-align: center;
+    }
+    
+    #tartalom {
+        width: 100vw;
+        margin-top: none;
+        margin-bottom: auto;
+    }
+    
+    p {
+        margin-bottom: auto;
+        font-size: 15px;
+        color: rgb(10, 10, 112);
+    }
+
+    #elso {
+        width: 90vw;
+        height: 320px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        margin-top: -6vh;
+    }
+    
+    #szoveg1 {
+        background-color: rgba(255, 255, 255, 0.4);
+        text-align: left;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        height: 170px;
+        width: 70vw;
+        
+    }
+    
+    #masodik {
+        width: 90vw;
+        height: 320px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        margin-top: -10vh;
+    }
+    
+    #szoveg2 {
+        background-color: rgba(255, 255, 255, 0.4);
+        text-align: left;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        height: 155px;
+        width: 70vw;
+    }
+    
+    #harmadik {
+        width: 90vw;
+        height: 320px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        margin-top: -10vh;
+    }
+    
+    #szoveg3 {
+        background-color: rgba(255, 255, 255, 0.4);
+        text-align: left;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+        margin-right: auto;
+        height: 200px;
+        width: 70vw;
+        
+    }
+    
+    #negyedik {
+        width: 100vw;
+        height: 320px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        margin-top: -10vh;
+    }
+    
+    #szoveg4 {
+        background-color: rgba(255, 255, 255, 0.4);
+        text-align: left;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+        margin-right: auto;
+        height: 220px;
+        width: 70vw;
+        
+    }
+    
+    #otodik {
+        width: 90vw;
+        height: 320px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        margin-top: -10vh;
+    }
+    
+    #szoveg5 {
+        background-color: rgba(255, 255, 255, 0.4);
+        text-align: left;
+        margin-top: auto;
+        margin-bottom: auto;
+        height: 155px;
+        width: 70vw;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+    #hatodik {
+        width: 100vw;
+        height: 320px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        margin-top: -10vh;
+    }
+    
+    #szoveg6 {
+        background-color: rgba(255, 255, 255, 0.4);
+        text-align: left;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+        margin-right: auto;
+        height: 155px;
+        width: 70vw;
+        
+    }
+    
+    #hetedik {
+        width: 90vw;
+        height: 320px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        margin-top: -10vh;
+    }
+    
+    #szoveg7 {
+        background-color: rgba(255, 255, 255, 0.4);
+        text-align: left;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+        margin-right: auto;
+        height: 155px;
+        width: 70vw;
+        
+    }
+    
+    #nyolcadik {
+        width: 100vw;
+        height: 320px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        margin-top: -10vh;
+    }
+    
+    #szoveg8 {
+        background-color: rgba(255, 255, 255, 0.4);
+        text-align: left;
+        margin-top: auto;
+        margin-bottom: auto;
+        height: 200px;
+        width: 70vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #kilencedik {
+        width: 90vw;
+        height: 320px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        margin-top: -10vh;
+    }
+    
+    #szoveg9 {
+        background-color: rgba(255, 255, 255, 0.4);
+        text-align: left;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+        margin-right: auto;
+        height: 155px;
+        width: 70vw;
+        
+    }
+    
+    #tizedik {
+        width: 100vw;
+        height: 320px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        margin-top: -10vh;
+    }
+    
+    #szoveg10 {
+        background-color: rgba(255, 255, 255, 0.4);
+        text-align: left;
+        margin-top: auto;
+        margin-bottom: auto;
+        height: 170px;
+        width: 70vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #hiteles {
+        text-align: center;
+        margin-bottom: 3vh;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    
+}
+
+@media screen and (max-width:601px) {
+    ::-webkit-scrollbar {
+        display: none;
+    }
+    
+    a {
+        color: white;
+        text-decoration: none;
+        font-size: 10px;
+    }
+    
+    #menu {
+        width: 101vw;
+        height: 15vh;
+        display: block;
+        font-family: eszi;
+        margin-left: -2vw;
+        margin-right: 0;
+    }
+    
+    #menufel {
+        width: 103vw;
+        height: 10vh;
+        background-color: white;
+        display: flex;
+        margin-top: 0;
+    }
+    
+    #menule {
+        width: 103vw;
+        height: 5vh;
+        background-color: rgb(122, 122, 122);
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 0;
+        color: white;
+        text-transform: uppercase;
+    }
+    
+    #logo {
+        align-content: left;
+        height: 10vh;
+    }
+    
+    img {
+        height: 9vh;
+        width: 25vw;
+        margin-left: 4vw;
+        margin-top: 1vh;
+        margin-bottom: auto;
+    }
+    
+    #menubar {
+        margin-top: 1vh;
+        font-family: eszi;
+        text-align: center;
+    }
+    
+    #tartalom {
+        width: 100vw;
+        margin-top: none;
+        margin-bottom: auto;
+    }
+    
+    p {
+        margin-bottom: auto;
+        font-size: 12px;
+        color: rgb(10, 10, 112);
+    }
+
+    #elso {
+        width: 90vw;
+        height: 340px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        margin-top: -6vh;
+    }
+    
+    #szoveg1 {
+        background-color: rgba(255, 255, 255, 0.4);
+        text-align: left;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        height: 190px;
+        width: 80vw;
+        
+    }
+    
+    #masodik {
+        width: 90vw;
+        height: 340px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        margin-top: -10vh;
+    }
+    
+    #szoveg2 {
+        background-color: rgba(255, 255, 255, 0.4);
+        text-align: left;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        height: 175px;
+        width: 80vw;
+    }
+    
+    #harmadik {
+        width: 90vw;
+        height: 340px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        margin-top: -10vh;
+    }
+    
+    #szoveg3 {
+        background-color: rgba(255, 255, 255, 0.4);
+        text-align: left;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+        margin-right: auto;
+        height: 220px;
+        width: 80vw;
+        
+    }
+    
+    #negyedik {
+        width: 100vw;
+        height: 340px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        margin-top: -10vh;
+    }
+    
+    #szoveg4 {
+        background-color: rgba(255, 255, 255, 0.4);
+        text-align: left;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+        margin-right: auto;
+        height: 240px;
+        width: 80vw;
+        
+    }
+    
+    #otodik {
+        width: 90vw;
+        height: 340px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        margin-top: -10vh;
+    }
+    
+    #szoveg5 {
+        background-color: rgba(255, 255, 255, 0.4);
+        text-align: left;
+        margin-top: auto;
+        margin-bottom: auto;
+        height: 175px;
+        width: 80vw;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+    #hatodik {
+        width: 100vw;
+        height: 340px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        margin-top: -10vh;
+    }
+    
+    #szoveg6 {
+        background-color: rgba(255, 255, 255, 0.4);
+        text-align: left;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+        margin-right: auto;
+        height: 175px;
+        width: 80vw;
+        
+    }
+    
+    #hetedik {
+        width: 90vw;
+        height: 340px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        margin-top: -10vh;
+    }
+    
+    #szoveg7 {
+        background-color: rgba(255, 255, 255, 0.4);
+        text-align: left;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+        margin-right: auto;
+        height: 175px;
+        width: 80vw;
+        
+    }
+    
+    #nyolcadik {
+        width: 100vw;
+        height: 340px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        margin-top: -10vh;
+    }
+    
+    #szoveg8 {
+        background-color: rgba(255, 255, 255, 0.4);
+        text-align: left;
+        margin-top: auto;
+        margin-bottom: auto;
+        height: 220px;
+        width: 80vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #kilencedik {
+        width: 90vw;
+        height: 340px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        margin-top: -10vh;
+    }
+    
+    #szoveg9 {
+        background-color: rgba(255, 255, 255, 0.4);
+        text-align: left;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+        margin-right: auto;
+        height: 175px;
+        width: 80vw;
+        
+    }
+    
+    #tizedik {
+        width: 100vw;
+        height: 340px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        margin-top: -10vh;
+    }
+    
+    #szoveg10 {
+        background-color: rgba(255, 255, 255, 0.4);
+        text-align: left;
+        margin-top: auto;
+        margin-bottom: auto;
+        height: 190px;
+        width: 80vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #hiteles {
+        text-align: center;
+        margin-bottom: 3vh;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    
+}
+    

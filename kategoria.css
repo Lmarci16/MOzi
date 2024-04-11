@@ -1,0 +1,65 @@
+@font-face {
+    font-family: eszi;
+    src: url(SigmarOne-Regular.ttf);
+}
+
+body {
+    background-color:  rgb(130, 210, 236);;
+    background-size: cover;
+    width: 101vw;
+    margin-top: -8px;
+    margin-left: -8px;
+    overflow: hidden;
+    height: 100vh;
+    font-family: eszi;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#menu {
+    width: 100vw;
+    height: 15vh;
+    display: block;
+    font-family: eszi;
+}
+
+#menufel {
+    width: 101vw;
+    height: 10vh;
+    background-color: white;
+    display: flex;
+    margin-top: 0;
+}
+
+#menule {
+    width: 101vw;
+    height: 5vh;
+    background-color: rgb(122, 122, 122);
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 0;
+    color: white;
+    text-transform: uppercase;
+}
+
+#logo {
+    align-content: left;
+    height: 10vh;
+}
+
+img {
+    height: 9vh;
+    width: 8vw;
+    margin-left: 4vw;
+    margin-top: 1vh;
+    margin-bottom: auto;
+}
+
+#menubar {
+    margin-top: 1.5vh;
+    font-family: eszi;
+    text-align: center;
+}
